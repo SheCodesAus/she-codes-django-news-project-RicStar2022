@@ -9,5 +9,9 @@ class NewsStory(models.Model):
         get_user_model(),
         on_delete=models.CASCADE
     )
-    pub_date = models.DateTimeField()
+    pub_date = models.DateTimeField(auto_now_add=True,)
     content = models.TextField()
+    image = models.CharField(max_length=300)
+
+    class Meta:
+        ordering = ['pub_date']

@@ -1,6 +1,7 @@
+
 .story-card {
     margin: 2px;
-    border: 1px solid #000;
+    border: 1px solid #B026ff;
     padding: 5px;
 }
 
@@ -83,4 +84,21 @@
     float: right;
     margin: 0 0 10px 10px;
     width: 50%;
+}
+
+input.button {
+    color: #B026ff;
+    background-color: transparent;
+    border: 1px solid #B026ff;
+    border-radius: 4px;
+    padding: 20px 28px;
+    font-family: 'SF Mono', 'Fira Mono', 'Roboto Mono', 'monospace';
+    line-height: 1;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+input.button:hover {
+    background-color: #af26ff41;
+    transition: 300ms;
 }
