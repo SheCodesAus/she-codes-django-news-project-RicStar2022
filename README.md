@@ -4,6 +4,9 @@ I really liked how we worked on this project in class. It combined my previous k
 
 Please refer to my trouble shooting section to learn more. 
 
+- GitHub repository: https://github.com/SheCodesAus/she-codes-django-news-project-RicStar2022
+- Horuku: https://boiling-harbor-30701.herokuapp.com/news/ (This does not work or look how it is meant to.)
+
 ## Part 1
 - Order the stories by date.
 -- I removed the wiki date picker and the stories add by date, I believe the stories are listed by most current dates at the top.
